@@ -11,3 +11,16 @@ export async function getProducts(page = 1, limit = 20, skip = 0) {
   console.log(`Fetched ${products.length} products`);
   return products;
 }
+
+
+export async function getProduct(id) {
+    console.log(`Fetching product with id ${id} from ${API_URL}/products/${id}`);
+    const res = await fetch(`${API_URL}/products/${id}`, { cache: 'no-store' });
+    if (!res.ok) {
+      throw new Error(`Failed to fetch product. Status: ${res.status}`);
+    }
+    const product = await res.json();
+    console.log(`Fetched product:`, product);
+    return product;
+  }
+  
