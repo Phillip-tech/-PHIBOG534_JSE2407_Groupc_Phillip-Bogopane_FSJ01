@@ -23,7 +23,7 @@ export default async function ProductPage({ params }) {
                       {product.discountPercentage}% OFF
                     </span>
                   )}
-                  )}
+                  
               </div>
               <div className="flex items-center mb-4">
                 <Star className="w-5 h-5 text-yellow-400 mr-1" />
