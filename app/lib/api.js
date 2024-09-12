@@ -1,5 +1,5 @@
-const API_URL = 'https://next-ecommerce-api.vercel.app';
-// https://next-ecommerce-api.vercel.app/products?skip=40
+const API_URL = 'https://next-ecommerce-api.vercel.app/products?skip=40' 
+ //'https://next-ecommerce-api.vercel.app';
 
 export async function getProducts(page = 1, limit = 20, skip = 0) {
   console.log(`Fetching products from ${API_URL}/products?_page=${page}&_limit=${limit}&_start=${skip}`);
