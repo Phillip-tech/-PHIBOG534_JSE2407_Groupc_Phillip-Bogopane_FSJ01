@@ -32,3 +32,27 @@ export default function ProductsPage() {
         setLoading(false);
       }
     }
+    
+    fetchProducts();
+  }, [page]); // Add page as a dependency to refetch products on page change
+
+  if (loading) return <Loading />;
+  if (error) return <ErrorMessage message={error} />;
+
+  const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
+  const startIndex = (page - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentProducts = products.slice(startIndex, endIndex);
+
+  return (
+    <div>
+      <h1 className="text-3xl font-bold mb-6">Our Products</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        {currentProducts.map((product) => (
+          <ProductCard key={product.id} product={product} />
+        ))}
+      </div>
+      <Pagination currentPage={page} totalPages={totalPages} />
+    </div>
+  );
+}
