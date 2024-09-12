@@ -16,3 +16,19 @@ export default function ProductsPage() {
   const [error, setError] = useState(null);
   const searchParams = useSearchParams();
   const page = Number(searchParams.get('page')) || 1;
+
+  useEffect(() => {
+    async function fetchProducts() {
+      try {
+        setLoading(true);
+        // Fetch products for the current page
+        const allProducts = await getProducts(page, ITEMS_PER_PAGE); // Use getProducts with pagination
+        setProducts(allProducts);
+        setError(null);
+      } catch (err) {
+        console.error('Error fetching products:', err);
+        setError(`Failed to load products. Error: ${err.message}`);
+      } finally {
+        setLoading(false);
+      }
+    }
