@@ -80,12 +80,13 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Product Listing Page:**
   Display the first 20 products fetched from the API, with pagination to view more.
   
-  ![alt](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot)
+  ![image alt](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot)
 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
   
-  ![alt](Product Detail View.2png.png)
+  ![image alt]([Product Detail View.2png.png](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/89b7898c0d36c73f550d66dcea1fd509faba13f1/Product%20Detail%20View.2png.png))
+ ![image alt]([Product Detail View.2png.png](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/89b7898c0d36c73f550d66dcea1fd509faba13f1/Product%20Detail%20View.2png.png))
 
 ---
 
