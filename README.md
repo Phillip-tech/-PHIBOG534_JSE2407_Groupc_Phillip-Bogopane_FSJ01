@@ -141,7 +141,7 @@ This project helped me dive deep into **Next.js 14**'s App Router and Server Com
 
 ### Here's an example of the product listing page: 
 
-![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/9b86b7c895b5a532ae11c1e3315abfcd20b4ef89/Products%20View.png)
+![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/78cb63f10dac12b3bb3411e5ffc64d093c9e2d19/FirstTwentyProducts.png)
  
 ### And here's the detailed view of an individual product:
 
