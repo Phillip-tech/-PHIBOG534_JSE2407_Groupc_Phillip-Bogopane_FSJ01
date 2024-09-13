@@ -1,5 +1,3 @@
-https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20Image.png
-
 # 🛍️ NextEcommerce - Modern E-commerce Platform
 
 Welcome to **NextEcommerce**, an e-commerce platform built with **Next.js 14**. This platform allows users to explore a wide range of products, view detailed product information, and enjoy a seamless shopping experience. 
@@ -82,12 +80,12 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Product Listing Page:**
   Display the first 20 products fetched from the API, with pagination to view more.
   
-![Product Page alt](https://raw.githubusercontent.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20Image.png)
+  ![alt](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot)
 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
   
-  ![Product Details](Product Detail View.2png.png)
+  ![alt](Product Detail View.2png.png)
 
 ---
 
@@ -127,14 +125,31 @@ This project helped me dive deep into **Next.js 14**'s App Router and Server Com
 
 Here's an example of the product listing page:
 
-[(Product Page](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20View.png)](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/main/Product%20Detail%20View.png?raw=true)
+![Product Page](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot)
 
 And here's the detailed view of an individual product:
 
-![Detailed Product View](https://via.placeholder.com/600x400.png?text=Detailed+Product+View+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Product%20Detail%20View%202.1.png)
+![Detailed Product View](https://via.placeholder.com/600x400.png?text=Detailed+Product+View+Screenshot)
 
 ---
 
 ## 💻 Folder Structure
 
-📂 next-ecommerce/ ├── 📂 app/ │ ├── 📂 components/ │ │ ├── ErrorMessage.js │ │ ├── Footer.js │ │ ├── Header.js │ │ ├── Loading.js │ │ ├── Pagination.js │ │ └── ProductCard.js │ ├── globals.css │ ├── layout.js │ ├── page.js │ └── products/ │ ├── [id].js │ └── page.js ├── 📂 public/ │ └── images/ ├── 📂 styles/ ├── package.json ├── next.config.js └── README.md
+next-e-commerce/
+├── 📁 app/
+│ ├── 📁 components/
+│ │ ├── 📝 ErrorMessage.js
+│ │ ├── 📝 Footer.js
+│ │ ├── 📝 Header.js
+│ │ ├── 📝 Loading.js
+│ │ ├── 📝 Pagination.js
+│ │ └── 📝 ProductCard.js
+│ ├── 📝 globals.css
+│ ├── 📝 layout.js
+│ ├── 📝 page.js
+│ └── 📁 products/
+│ ├── 📝 [id].js
+│ └── 📝 page.js
+├── 📝 package.json
+├── 📝 next.config.js
+└── 📝 README.md
