@@ -82,7 +82,7 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Product Listing Page:**
   Display the first 20 products fetched from the API, with pagination to view more.
   
-  ![Product Page]([https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20Image.png))
+  ![Product Page](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot/https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20Image.png)
 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
@@ -127,11 +127,11 @@ This project helped me dive deep into **Next.js 14**'s App Router and Server Com
 
 Here's an example of the product listing page:
 
-![Product Page]([https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20View.png))
+![Product Page](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Products%20View.png)
 
 And here's the detailed view of an individual product:
 
-![Detailed Product View]([https://via.placeholder.com/600x400.png?text=Detailed+Product+View+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Product%20Detail%20View%202.1.png)
+![Detailed Product View](https://via.placeholder.com/600x400.png?text=Detailed+Product+View+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Product%20Detail%20View%202.1.png)
 
 ---
 
