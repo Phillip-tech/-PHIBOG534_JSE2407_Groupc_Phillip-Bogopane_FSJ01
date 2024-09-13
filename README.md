@@ -87,7 +87,7 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
   
-  ![Product Details]([https://via.placeholder.com/600x400.png?text=Detailed+Product+Page+Screenshot](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/blob/e0a9d567a345150ab3841942a6dac28eade9ada1/Product%20Detail%20View.png))
+  ![Product Details](Product Detail View.2png.png)
 
 ---
 
