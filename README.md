@@ -4,6 +4,24 @@ Welcome to **NextEcommerce**, an e-commerce platform built with **Next.js 14**. 
 
 ---
 
+## 📚 Table of Contents  
+- [🔍 Overview](#-overview)  
+- [✨ Features (User Stories)](#-features-user-stories)  
+  - [📦 Data Fetching & State Management](#-data-fetching--state-management)  
+  - [🎨 UI/UX](#-uiux)  
+- [🛠️ Technologies Used](#-technologies-used)  
+- [🎨 Styling & Design](#🎨-styling-design)  
+- [🚀 Installation & Setup](#-installation--setup)  
+- [🌐 Usage](#-usage)  
+- [🎨 Styling Elements](#-styling-elements)  
+- [⚙️ Challenges Faced](#-challenges-faced)  
+- [📱 Responsive Design](#-responsive-design)  
+- [💡 Reflections](#-reflections)  
+- [🖼️ Product Previews](#-product-previews)  
+- [💻 Folder Structure](#-folder-structure)  
+
+---  
+
 ## 🔍 Overview
 This project showcases key features including **pagination**, **product preview**, and **error handling** while integrating **server-side rendering** to deliver a highly responsive and user-friendly platform.
 
@@ -80,7 +98,7 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Product Listing Page:**
   Display the first 20 products fetched from the API, with pagination to view more.
   
-  ![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_PhillipBogopane_FSJ01/raw/c638453ebbd63a752fc45c24571d359f6fabda7b/FirstTwentyProducts.png)
+  ![image alt](https://github.com/Phillip-tech/PHIBOG534_JSE2407_Groupc_PhillipBogopane_FSJ01/raw/c638453ebbd63a752fc45c24571d359f6fabda7b/FirstTwentyProducts.png)
 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
@@ -121,18 +139,18 @@ This project helped me dive deep into **Next.js 14**'s App Router and Server Com
 
 ## 🖼️ Product Previews
 
-Here's an example of the product listing page:
+### Here's an example of the product listing page: 
 
 ![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/9b86b7c895b5a532ae11c1e3315abfcd20b4ef89/Products%20View.png)
  
-And here's the detailed view of an individual product:
+### And here's the detailed view of an individual product:
 
 ![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/9b86b7c895b5a532ae11c1e3315abfcd20b4ef89/Product%20Detail%20View.png)
 
 ---
 
 ## 💻 Folder Structure
-
+```
 next-e-commerce/
 ├── 📁 app/
 │ ├── 📁 components/
@@ -151,3 +169,4 @@ next-e-commerce/
 ├── 📝 package.json
 ├── 📝 next.config.js
 └── 📝 README.md
+```
