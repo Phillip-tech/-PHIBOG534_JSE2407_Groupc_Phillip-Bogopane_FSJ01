@@ -85,7 +85,6 @@ We use **Tailwind CSS** for fast, scalable, and responsive design. The platform 
 - **Detailed Product View:**
   View detailed product information, including multiple images, descriptions, and reviews.
   
-
  ![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/89b7898c0d36c73f550d66dcea1fd509faba13f1/Product%20Detail%20View.2png.png)
 
 ## 🎨 Styling Elements
@@ -124,11 +123,12 @@ This project helped me dive deep into **Next.js 14**'s App Router and Server Com
 
 Here's an example of the product listing page:
 
-![Product Page](https://via.placeholder.com/600x400.png?text=Product+Page+Screenshot)
-
+![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/9b86b7c895b5a532ae11c1e3315abfcd20b4ef89/Products%20View.png)
+ 
 And here's the detailed view of an individual product:
 
 ![Detailed Product View](https://via.placeholder.com/600x400.png?text=Detailed+Product+View+Screenshot)
+![image alt](https://github.com/Phillip-tech/-PHIBOG534_JSE2407_Groupc_Phillip-Bogopane_FSJ01/raw/9b86b7c895b5a532ae11c1e3315abfcd20b4ef89/Product%20Detail%20View.png)
 
 ---
 
