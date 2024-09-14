@@ -8,7 +8,7 @@ import Loading from '../components/Loading';
 import ErrorMessage from '../components/ErrorMessage';
 import { getProducts } from '../lib/api'; // Change the import
 
-const ITEMS_PER_PAGE = 30; // Change this value to the desired number of items per page
+const ITEMS_PER_PAGE = 20; // Change this value to the desired number of items per page
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
