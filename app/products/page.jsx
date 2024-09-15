@@ -6,9 +6,17 @@ import ProductCard from '../components/ProductCard';
 import Pagination from '../components/Pagination';
 import Loading from '../components/Loading';
 import ErrorMessage from '../components/ErrorMessage';
-import { getProducts } from '../lib/api'; // Change the import
+import { getProducts } from '../lib/api'; 
 
 const ITEMS_PER_PAGE = 20; // Change this value to the desired number of items per page
+
+/**
+ * The ProductsPage component displays a list of products with pagination.
+ * It fetches products from the API based on the current page and renders them using the ProductCard component.
+ * It also handles loading and error states.
+ *
+ * @returns {JSX.Element} - The ProductsPage component with the product list and pagination.
+ */
 
 export default function ProductsPage() {
   const [products, setProducts] = useState([]);
