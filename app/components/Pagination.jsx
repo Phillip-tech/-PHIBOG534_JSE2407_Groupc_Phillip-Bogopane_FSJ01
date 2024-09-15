@@ -3,10 +3,18 @@
 import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 
+/**
+ * The Pagination component displays a pagination bar with previous, current, and next buttons.
+ *
+ * @param {Object} props - The component props.
+ * @param {number} props.currentPage - The current page number.
+ * @returns {JSX.Element} - The Pagination component.
+ */
 const Pagination = ({ currentPage }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
+  // Create a URL for the specified page number, preserving existing search parameters.
   const createPageURL = (pageNumber) => {
     const params = new URLSearchParams(searchParams);
     params.set('page', pageNumber.toString());
@@ -27,6 +35,3 @@ const Pagination = ({ currentPage }) => {
 };
 
 export default Pagination;
-
-
-

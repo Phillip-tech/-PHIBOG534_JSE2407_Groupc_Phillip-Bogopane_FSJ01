@@ -8,6 +8,13 @@ import dynamic from 'next/dynamic';
 
 // Dynamically import the GoBackButton to use it as a Client Component
 const GoBackButton = dynamic(() => import('../../components/GoBackButton'), { ssr: false });
+/**
+ * The ProductPage component displays a single product with its details and reviews.
+ * It fetches the product data from the API and renders it using the ProductGallery and other components.
+ *
+ * @param {Object} params - The parameters passed to the component, containing the product ID.
+ * @returns {JSX.Element} - The ProductPage component with the product details and reviews.
+ */
 
 export default async function ProductPage({ params }) {
   let product;

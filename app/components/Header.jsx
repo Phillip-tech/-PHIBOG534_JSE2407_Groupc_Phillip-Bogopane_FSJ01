@@ -5,6 +5,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ShoppingBag } from 'lucide-react';
 
+/**
+ * The Header component displays the header section of the NextEcommerce website.
+ * It includes the navigation menu and the mobile menu toggle button.
+ *
+ * @returns {JSX.Element} - The Header component.
+ */
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [currentPath, setCurrentPath] = useState('');
