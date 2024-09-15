@@ -32,7 +32,7 @@ export default function ProductsPage() {
         setLoading(false);
       }
     }
-    
+
     fetchProducts();
   }, [page]); // Add page as a dependency to refetch products on page change
 
