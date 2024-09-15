@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
+    <div className="bg-white rounded-lg shadow-xl overflow-hidden transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1">
       <div className="relative h-64">
         {product.images && product.images.length > 0 && !imageError ? (
           <>
